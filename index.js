@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nedb = require('nedb-promise');
+const cors = require('cors');
 
 const ValidacaoUtils = require('./validacao-utils');
 
@@ -10,6 +11,7 @@ const app = express();
 db.loadDatabase();
 
 app.use(bodyParser.json());
+app.use(cors());
 
 const MSG_OK  = "OK";
 const MSG_FORMATO_INVALIDO  = "O formato do produto é inválido!";
