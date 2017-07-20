@@ -63,7 +63,7 @@ app.put('/produto/:id', (req, res) => {
 
 // DELETE
 app.delete('/produto/:id', (req, res) => {
-    db.update({ _id: req.params.id }).then(() => {
+    db.remove({ _id: req.params.id }).then(() => {
         res.send(MSG_OK);
     }).catch(() => res.status(500).end());
 });
