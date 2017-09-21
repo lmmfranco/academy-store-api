@@ -1,19 +1,19 @@
 # academy-store-api
 
-Uma RESTFul API simples em Node JS, criada por [Luiz Franco](https://github.com/lmmfranco), para utilização no curso [Desenvolvimento front-end com Bootstrap e Angular JS](http://academy.fpftech.com/produto/desenvolvimento-front-end-com-bootstrap-e-angular-js/).
+Uma RESTFul API simples em Node JS, criada por [Luiz Franco](https://github.com/lmmfranco), para utilizaÃ§Ã£o no curso [Desenvolvimento front-end com Bootstrap e Angular JS](http://academy.fpftech.com/produto/desenvolvimento-front-end-com-bootstrap-e-angular-js/).
 
 ---
 
-1) Clone ou baixe este repositório e, estando no diretório do projeto, abra o console: 
+1) Clone ou baixe este repositÃ³rio e, estando no diretÃ³rio do projeto, abra o console: 
 `npm install`
 
-1) Para executar, estando no diretório do projeto, abra o console: 
-`node index.js`
+1) Para executar, estando no diretÃ³rio do projeto, abra o console: 
+`npm start`
 
-3) Para testar as requisições, utilize o software de sua preferência ([Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop), por exemplo) e acesse:
+3) Para testar as requisiÃ§Ãµes, utilize o software de sua preferÃªncia ([Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop), por exemplo) e acesse:
 `http://localhost:8080`
 
-## Exemplo de requisição (POST):
+## Exemplo de requisiÃ§Ã£o (POST):
 
 URL:
 `localhost:8080/produto`
@@ -26,7 +26,7 @@ Body (JSON):
 	"valor": 1,
 	"imagem": "",
 	"quantidade": 1,
-	"descricao": "Descrição do Produto"
+	"descricao": "DescriÃ§Ã£o do Produto"
 }
 ```
 
